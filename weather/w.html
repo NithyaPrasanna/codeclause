@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="w.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1 id="city-name">Weather App</h1>
+        <div class="search-container">
+            <i class="fa-solid fa-location-dot"></i> <input type="text" id="city-input"  placeholder="Enter your location">
+            <button  id ="search-button" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="weather-info">
+            <div class="icon-container">
+                <img id="weather-icon" src="" alt="Weather Icon loading">
+            </div>
+            <p id="temperature" class="fa-solid fa-temperature-half">    Temperature: </p><br>
+            <p id="humidity" class="fa-solid fa-water"> Humidity: </p><br>
+            <p id="wind-speed"class="fa-solid fa-wind"> Wind Speed: </p><br>
+            <p id="description">Description: </p>
+        </div>
+    </div>
+    <script src="w.js"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+</body>
+</html>
